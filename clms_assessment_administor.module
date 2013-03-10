@@ -1,0 +1,26 @@
+<?php 
+
+function clms_assessment_administor_menu() {
+
+  $items = array();
+  $items['my_learning_outcome'] = array(
+    'title' => 'Learning Outcome',
+    'description' => 'Learning Outcome Details',
+    'access arguments' => array('access content'),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 90
+  );
+  return $items;
+}
+
+/**
+ * Implentation of HOOK_views_api()
+ *
+ * @return array An associative array of views options.
+ */
+ 
+function clms_assessment_administor_views_api() {
+    return array(
+        'api' => 2.0
+    );
+}
