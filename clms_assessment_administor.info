@@ -1,0 +1,9 @@
+; $Id: clms_assessment_administor.info,v 1.6 20013/03/10 23:46:29 Somdeb Dasgupta $
+name = CLMS Assessment
+description = CLMS Assessment administor.
+package = Assessment
+core = 6.x
+version = "1.0"
+core = "6.x"
+datestamp = "1294407979"
+
